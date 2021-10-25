@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 15px;
+    position: sticky;
+    height: 35%;
+    background-image:url("./images/falestine.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+header h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white; 
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+header a {
+    text-decoration: none;
+    color: black; 
+    border-bottom: 1.5px dashed #000;
+    
+}
+header nav {
+    margin: 7px 0;
+    display: flex;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 5px 10px;
+    margin: 0; 
+    font-weight: bolder;
+    font-size: 25px;    
+}
