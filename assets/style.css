@@ -12,11 +12,13 @@ header {
     flex-wrap: wrap;
     padding: 5px 15px;
     position: sticky;
+    top: 0; 
     height: 35%;
     background-image:url("./images/falestine.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
+    margin: 15px 0 0 0; 
 }
 
 header h1 {
@@ -50,4 +52,24 @@ header nav ul li a {
     margin: 0; 
     font-weight: bolder;
     font-size: 25px;    
+}
+.side-panel {
+    display: flex;
+    justify-content: flex-start, space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px; 
+    height: 100%;
+    width: 20%;
+    border-right: 3px solid #000;
+    margin: 20px 0 0 0;
+
+}
+.side { 
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 4;
+    border-bottom: 1px dashed black;
 }
