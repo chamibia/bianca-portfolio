@@ -89,6 +89,8 @@ header nav ul li a {
     justify-content: flex-start; 
     flex-direction: column;
     flex-wrap: wrap;
+    margin: 0%;
+    padding:0%; 
     height: 100%;
     width: 80%; 
 }
@@ -96,6 +98,8 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0%;
+    padding: 0%; 
     width: 40%;
     height: 30%;
 }
@@ -103,6 +107,8 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    margin: 0%;
+    padding: 0%; 
    line-height: 1.7;
    font-size: 18px;
    text-align: center; 
