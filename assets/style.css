@@ -53,65 +53,45 @@ header nav ul li a {
     font-weight: bolder;
     font-size: 25px;    
 }
-.side-panel {
+.intro {
     display: flex;
-    justify-content: flex-start, space-between;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px; 
-    height: 100%;
-    width: 20%;
-    border-right: 3px solid #000;
-    margin: 20px 0 20px 0;
-
 }
-.one-side {
-    display: flex;
-    justify-content: flex-start, space-between;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px; 
-    height: 100%;
-    width: 100%;    
-    margin: 20px 0 20px 0;
-
-}
-.side { 
-    margin: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 4;
-    border-bottom: 1px dashed black;
+.intro p {
+    line-height: 1.7;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: end;
 }
 .about {
     display: flex;
-    justify-content: flex-start; 
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 0%;
-    padding:0%; 
-    height: 100%;
-    width: 80%; 
 }
-.about .column {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0%;
-    padding: 0%; 
-    width: 40%;
-    height: 30%;
-}
-.about .column p {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    margin: 0%;
-    padding: 0%; 
-   line-height: 1.7;
-   font-size: 18px;
-   text-align: center; 
-   left: 60%;
 
+.intro-about {
+    width: 80%; 
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    padding-top: 40px;
+}
+
+.flex-row { 
+    margin: 20px; 
+    padding: 10px; 
+    border-bottom: dashed black;
+}
+.work {
+    display: flex; 
+}
+.pyramids {
+    display: flex;
+}
+.work-pyramids {
+    width: 80%; 
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    padding-top: 20px;
 }
