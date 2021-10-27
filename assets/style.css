@@ -65,6 +65,17 @@ header nav ul li a {
     margin: 20px 0 20px 0;
 
 }
+.one-side {
+    display: flex;
+    justify-content: flex-start, space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px; 
+    height: 100%;
+    width: 100%;    
+    margin: 20px 0 20px 0;
+
+}
 .side { 
     margin: 0px;
     display: flex;
@@ -74,16 +85,27 @@ header nav ul li a {
     border-bottom: 1px dashed black;
 }
 .about {
-    margin: 50px auto;
-    padding-left: 50px;
-    width: 60%;
     display: flex;
+    justify-content: flex-start; 
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    height: 100%;
+    width: 80%; 
 }
-.about p {
+.about .column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: 30%;
+}
+.about .column p {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    order: 3; 
+    justify-content: end;
+   line-height: 1.7;
+   font-size: 18px;
+   text-align: center; 
+   left: 60%;
+
 }
