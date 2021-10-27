@@ -83,15 +83,36 @@ header nav ul li a {
 }
 .work {
     display: flex; 
+    flex-direction: column;
 }
 .pyramids {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+    
 }
 .work-pyramids {
-    width: 80%; 
+    width: 50vw;
+    height: 30vw; 
     text-align: center;
-    font-size: 30px;
     font-weight: bold;
     margin: 20px;
     padding-top: 20px;
+    display: flex;
+    align-self: stretch;
+    
+}
+.work-pyramids a {
+    text-decoration: none;
+    color: black;
+    background-color: #627a75;
+    font-size: 60px;
+    padding: 20px; 
+    width: 100%; 
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+  
 }
