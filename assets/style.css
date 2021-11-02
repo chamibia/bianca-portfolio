@@ -121,10 +121,6 @@ header nav ul li a {
     object-fit: contain; 
     position: relative; 
 }
-.footer {
-    margin-top: 1.5rem; 
-    bottom: 0%;
-}
 .flex-row ul {
     display: flex;
     flex-wrap: wrap;
