@@ -31,7 +31,7 @@ header h1 {
 }
 header a {
     text-decoration: none;
-    color: black; 
+    color: white; 
     border-bottom: 1.5px dashed #000;
     
 }
@@ -84,31 +84,33 @@ header nav ul li a {
 .work {
     display: flex; 
     flex-direction: column;
+    width: 400px;
+    height: 200px;
 }
 .pyramids {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
+    border: 10px;
     
 }
 .work-pyramids {
-    width: 50vw;
-    height: 30vw; 
+    position: absolute; 
+    width: 600px;
+    height: 200px;
+    right: 300px;
+    border: 10px;
     text-align: center;
     font-weight: bold;
-    margin: 20px;
-    padding-top: 20px;
-    display: flex;
-    align-self: stretch;
-    
+    margin: 20px;    
 }
-.work-pyramids a {
+.work-class a {
     text-decoration: none;
     color: black;
     background-color: #627a75;
-    font-size: 60px;
+    font-size: 80px;
     padding: 20px; 
     width: 100%; 
     border-radius: 15px;
@@ -116,3 +118,10 @@ header nav ul li a {
     justify-content: center;
   
 }
+
+.work-class {
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+.work-
