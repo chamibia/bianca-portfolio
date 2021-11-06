@@ -74,10 +74,15 @@ header nav ul li a {
     min-width: 350px;
     max-width: 350px;
     padding-right: 15px;
+    align-self: stretch;
 }
 .section-content p {
     color: black;
     margin-left: 3rem; 
+}
+#projects {
+    display: flex;
+    align-items: flex-start;
 }
 .flex-container {
     display: flex;
