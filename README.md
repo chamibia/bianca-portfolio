@@ -8,6 +8,6 @@
 
 ### Bianca's portfolio URL: https://chamibia.github.io/bianca-portfolio/
 
-Bianca's portfoilio repo: https://github.com/chamibia/bianca-portfolio
+### Bianca's portfoilio repo: https://github.com/chamibia/bianca-portfolio
 
 Made by Bianca Chami
