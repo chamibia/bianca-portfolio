@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "monospace";
   cursor: crosshair;
 }
 header {
@@ -11,14 +10,25 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  opacity: 0.7;
 }
 header a {
   color: black;
   text-decoration: none;
+  font-family: monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
 }
 header h1 {
-  font-size: 45px;
-  color: #e6e6e6;
+  font-family: monospace;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 36px;
+  color: black;
   margin: 10;
   padding-left: 35px;
 }
@@ -51,7 +61,7 @@ header nav ul li a {
   justify-content: center;
   height: 15vw;
   opacity: 0.4;
-  padding-bottom: 50px;
+  margin-bottom: 150px;
 }
 .subtitle {
   position: absolute;
@@ -68,8 +78,14 @@ header nav ul li a {
 }
 .section-title {
   display: flex;
-  font-size: 32px;
-  border-right: 3px solid royalblue;
+  font-family: monospace;
+  font-size: 35px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 45px;
+  color: black;
+  border-right: 8px solid royalblue;
   color: black;
   justify-content: right;
   margin-bottom: 15px;
@@ -81,10 +97,13 @@ header nav ul li a {
 .section-content p {
   color: black;
   margin-left: 3rem;
-  font-size: 22px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  font-family: monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-right: 150px;
 }
 #projects {
   display: flex;
@@ -157,4 +176,14 @@ ul li a::after {
   left: 0;
   bottom: 0px;
   transform: scale(0, 1);
+}
+
+@media screen and (min-width: 576px) {
+  #main {
+    flex-direction: row;
+  }
+  #main > nav,
+  #main > aside {
+    flex: 0 0 20vw;
+  }
 }
